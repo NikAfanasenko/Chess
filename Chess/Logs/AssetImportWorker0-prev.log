@@ -15,7 +15,7 @@ E:/Projects/Chess/Chess
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56232
+53355
 Successfully changed project path to: E:/Projects/Chess/Chess
 E:/Projects/Chess/Chess
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,15 +49,15 @@ E:/Projects/Chess/Chess
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [10580]  Target information:
+Player connection [3044]  Target information:
 
-Player connection [10580]  * "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 1480735504 [EditorId] 1480735504 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-EOP8752) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [3044]  * "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 1037039381 [EditorId] 1037039381 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-EOP8752) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [10580] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [10580] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [3044] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [3044] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-Refreshing native plugins compatible for Editor in 5.04 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.20 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.62f2 (7670c08855a9)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/Resources/UnitySubsystems
@@ -73,44 +73,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56404
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56040
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004725 seconds.
-- Loaded All Assemblies, in  0.220 seconds
+Registered in 0.004590 seconds.
+- Loaded All Assemblies, in  0.224 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.163 seconds
-Domain Reload Profiling: 382ms
-	BeginReloadAssembly (67ms)
+- Finished resetting the current domain, in  0.175 seconds
+Domain Reload Profiling: 398ms
+	BeginReloadAssembly (68ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (6ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
 	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (85ms)
+	LoadAllAssembliesAndSetupDomain (86ms)
 		LoadAssemblies (66ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (84ms)
-			TypeCache.Refresh (83ms)
-				TypeCache.ScanAssembly (74ms)
+		AnalyzeDomain (85ms)
+			TypeCache.Refresh (84ms)
+				TypeCache.ScanAssembly (75ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (164ms)
+	FinalizeReload (175ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (134ms)
+		SetupLoadedEditorAssemblies (143ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (90ms)
-			ProcessInitializeOnLoadMethodAttributes (31ms)
+			ProcessInitializeOnLoadAttributes (95ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -119,50 +119,50 @@ Domain Reload Profiling: 382ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.377 seconds
+- Loaded All Assemblies, in  0.363 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.378 seconds
-Domain Reload Profiling: 755ms
-	BeginReloadAssembly (92ms)
+- Finished resetting the current domain, in  0.332 seconds
+Domain Reload Profiling: 693ms
+	BeginReloadAssembly (101ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (16ms)
-	RebuildCommonClasses (20ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (21ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (231ms)
-		LoadAssemblies (168ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (205ms)
+		LoadAssemblies (161ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (116ms)
-			TypeCache.Refresh (104ms)
-				TypeCache.ScanAssembly (97ms)
-			ScanForSourceGeneratedMonoScriptInfo (9ms)
+		AnalyzeDomain (98ms)
+			TypeCache.Refresh (86ms)
+				TypeCache.ScanAssembly (79ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (379ms)
+	FinalizeReload (332ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (275ms)
+		SetupLoadedEditorAssemblies (249ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
+			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (38ms)
-			ProcessInitializeOnLoadAttributes (208ms)
-			ProcessInitializeOnLoadMethodAttributes (15ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			BeforeProcessingInitializeOnLoad (35ms)
+			ProcessInitializeOnLoadAttributes (191ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 2.11 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3246 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (54.5 KB). Loaded Objects now: 3713.
-Memory consumption went from 121.6 MB to 121.5 MB.
-Total: 4.009100 ms (FindLiveObjects: 0.490200 ms CreateObjectMapping: 0.099200 ms MarkObjects: 3.308200 ms  DeleteObjects: 0.110100 ms)
+Unloading 19 unused Assets / (54.9 KB). Loaded Objects now: 3713.
+Memory consumption went from 121.7 MB to 121.6 MB.
+Total: 2.320000 ms (FindLiveObjects: 0.190000 ms CreateObjectMapping: 0.042700 ms MarkObjects: 2.009000 ms  DeleteObjects: 0.076800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -179,247 +179,62 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 635.979771 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ae5280ad91af67e2a353905758f96678') in 0.002646 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 6.564958 seconds.
-  path: Assets/New Folder
-  artifactKey: Guid(08f72717f36c9fb47b89b510c79e191f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Folder using Guid(08f72717f36c9fb47b89b510c79e191f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '1cd3025dee2999b9a9e5082596cda575') in 0.000338 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 232.556776 seconds.
-  path: Assets/BrokenVector
-  artifactKey: Guid(4ccd5365a8d798f459cc53a4f38e6c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector using Guid(4ccd5365a8d798f459cc53a4f38e6c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'b4177a1618506ae89836d099b7f194e3') in 0.000424 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.721580 seconds.
-  path: Assets/BrokenVector/LowpolyChessPack
-  artifactKey: Guid(302069a9828a9f745991724fe9a1c5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowpolyChessPack using Guid(302069a9828a9f745991724fe9a1c5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ab4f15eb216df92f40721d11f9b2df15') in 0.000360 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.783822 seconds.
-  path: Assets/BrokenVector/LowpolyChessPack/Materials
-  artifactKey: Guid(9e470a221bbbe444db32ccbad1fd4012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowpolyChessPack/Materials using Guid(9e470a221bbbe444db32ccbad1fd4012) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a5226cb734660b4541cc6b82a2fc8666') in 0.000338 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.071546 seconds.
-  path: Assets/BrokenVector/LowpolyChessPack/Materials/Chess Material.mat
-  artifactKey: Guid(fdf806cb46d6a40418581d1568ff1c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowpolyChessPack/Materials/Chess Material.mat using Guid(fdf806cb46d6a40418581d1568ff1c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 1177.907949 seconds.
+  path: Assets/Matirials/Black.mat
+  artifactKey: Guid(42fbf6921c5d8d248b84c64ebf736532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Matirials/Black.mat using Guid(42fbf6921c5d8d248b84c64ebf736532) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '6516bd59b98ada15e15948667608e5b1') in 0.200783 seconds
+ -> (artifact id: 'efbac66fa983f6b8e165d6e5b5da4191') in 0.077111 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 1.910779 seconds.
-  path: Assets/BrokenVector/LowpolyChessPack/Models
-  artifactKey: Guid(90baaa39acb7fe94ca2c626f355eae35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowpolyChessPack/Models using Guid(90baaa39acb7fe94ca2c626f355eae35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '20f894d54d8e65c435366adc367212d6') in 0.000540 seconds
+  Time since last request: 26.937703 seconds.
+  path: Assets/Matirials/White.mat
+  artifactKey: Guid(9382d7e99af107a439e768ad8ac1fea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Matirials/White.mat using Guid(9382d7e99af107a439e768ad8ac1fea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ce10a47057076bfe66f8221cc47ae052') in 0.004714 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.035185 seconds.
-  path: Assets/BrokenVector/LowpolyChessPack/Models/Black Bishop.dae
-  artifactKey: Guid(66ad00b166b914e47acce78daea25aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowpolyChessPack/Models/Black Bishop.dae using Guid(66ad00b166b914e47acce78daea25aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '9c1a4defc72044204282b328bb20c7fc') in 0.092978 seconds
+  Time since last request: 31.069596 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/Black Bishop.prefab
+  artifactKey: Guid(a71fd906a2159e247ab4d632e46947db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/Black Bishop.prefab using Guid(a71fd906a2159e247ab4d632e46947db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'be2bc145f5f4971f3d45f791270e5cd3') in 0.004803 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/BrokenVector/LowpolyChessPack/Models/Board.dae
-  artifactKey: Guid(f10c2e64b5383f04f840dea170590ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowpolyChessPack/Models/Board.dae using Guid(f10c2e64b5383f04f840dea170590ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'cbd6e7659487f4b90fa7dbe11706168d') in 0.007453 seconds
+  Time since last request: 0.008504 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/Black Pawn.prefab
+  artifactKey: Guid(edd4f3477fd5a8b4599bf6c0dac39f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/Black Pawn.prefab using Guid(edd4f3477fd5a8b4599bf6c0dac39f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '808f194bb269b08b11a3e1fa16994ea3') in 0.001223 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/BrokenVector/LowpolyChessPack/Models/White Knight.dae
-  artifactKey: Guid(69faab6ae9c00a848a82d036ac8c75d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowpolyChessPack/Models/White Knight.dae using Guid(69faab6ae9c00a848a82d036ac8c75d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '2d432b5b636fdc07fa81e00fbd12631b') in 0.008018 seconds
+  Time since last request: 0.000012 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/Black Rook.prefab
+  artifactKey: Guid(9d3e9c36668dcfe44b524760a4c3a3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/Black Rook.prefab using Guid(9d3e9c36668dcfe44b524760a4c3a3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c55bbf08ac7724913b74fb6674cd469e') in 0.001674 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/BrokenVector/LowpolyChessPack/Models/White Pawn.dae
-  artifactKey: Guid(6730016ba0e329c499d89e81bd550346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowpolyChessPack/Models/White Pawn.dae using Guid(6730016ba0e329c499d89e81bd550346) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '324a6d543710ab376951687a367c3cba') in 0.007868 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/BrokenVector/LowpolyChessPack/Models/White King.dae
-  artifactKey: Guid(763435837405bc24691af77936be360b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowpolyChessPack/Models/White King.dae using Guid(763435837405bc24691af77936be360b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'dfda4ca0e299eb4ef2cee4cd6bf62d71') in 0.007132 seconds
+  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/Black Knight.prefab
+  artifactKey: Guid(b6c7ad354ac474944ba26b2895a59759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/Black Knight.prefab using Guid(b6c7ad354ac474944ba26b2895a59759) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e5fbbd24aa5f7c61eabde233311fa759') in 0.001495 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/BrokenVector/LowpolyChessPack/Models/Black Knight.dae
-  artifactKey: Guid(639050e749c3ce444a196d84e803b067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowpolyChessPack/Models/Black Knight.dae using Guid(639050e749c3ce444a196d84e803b067) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '8092e3592a41ce52f727d22cee99119e') in 0.030779 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/BrokenVector/LowpolyChessPack/Models/White Rook.dae
-  artifactKey: Guid(695bd15b69d9eac408b599c22f9de55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowpolyChessPack/Models/White Rook.dae using Guid(695bd15b69d9eac408b599c22f9de55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '0e51b68fb885142051bb9bf95bddb02a') in 0.007654 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/BrokenVector/LowpolyChessPack/Models/Black Rook.dae
-  artifactKey: Guid(c61872173bf5220469786c549644854f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowpolyChessPack/Models/Black Rook.dae using Guid(c61872173bf5220469786c549644854f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '461dd6e317df8d4eb9abb328a7ab2e51') in 0.007468 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/BrokenVector/LowpolyChessPack/Models/Black Queen.dae
-  artifactKey: Guid(5d7a66b35fd81564380721b6bfcaaa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowpolyChessPack/Models/Black Queen.dae using Guid(5d7a66b35fd81564380721b6bfcaaa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'e288a68180fcf481f0df447bb4383dc1') in 0.006934 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/BrokenVector/LowpolyChessPack/Models/White Bishop.dae
-  artifactKey: Guid(1e1130c2d0732f44eb82b057a9dcf58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowpolyChessPack/Models/White Bishop.dae using Guid(1e1130c2d0732f44eb82b057a9dcf58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'de0a9a4c92bc8c30c70675215b338d93') in 0.006709 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/BrokenVector/LowpolyChessPack/Models/Black Pawn.dae
-  artifactKey: Guid(8fbcce33444d4ce4db5b61f8d0eeb7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowpolyChessPack/Models/Black Pawn.dae using Guid(8fbcce33444d4ce4db5b61f8d0eeb7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '2f4677b83684fab9ef22fe589e933cc5') in 0.006936 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/BrokenVector/LowpolyChessPack/Models/White Queen.dae
-  artifactKey: Guid(3d88c9550087ec84c95090f5be583f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowpolyChessPack/Models/White Queen.dae using Guid(3d88c9550087ec84c95090f5be583f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '8c46689dca4beb23c53f79a5a4ffd91e') in 0.007237 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 2.198350 seconds.
-  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/Black King.prefab
-  artifactKey: Guid(861e95a585868b643bf2e4a1d0ae63b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/Black King.prefab using Guid(861e95a585868b643bf2e4a1d0ae63b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '8be481dfc2d23ff3495b3fb57e0e28d1') in 0.007068 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/White Knight.prefab
-  artifactKey: Guid(7248632fb471af143947a88a47eae959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/White Knight.prefab using Guid(7248632fb471af143947a88a47eae959) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '92924d368f64af0c57c9a287328c4062') in 0.004668 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/Board.prefab
-  artifactKey: Guid(31270e9f38d5e7a448ae050b9633fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/Board.prefab using Guid(31270e9f38d5e7a448ae050b9633fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'abc884b3cf778456c112e769e5e8d584') in 0.004883 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/White Rook.prefab
-  artifactKey: Guid(43ef2ba32fda59c42a1410ea490d494b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/White Rook.prefab using Guid(43ef2ba32fda59c42a1410ea490d494b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '0c1b5284673908266f19eda10092575b') in 0.004986 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/White Queen.prefab
-  artifactKey: Guid(6f38c700bedefe64f8364436528e5c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/White Queen.prefab using Guid(6f38c700bedefe64f8364436528e5c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '18824a94b0a3f2e09b5302f2db849834') in 0.004965 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Number of asset objects unloaded after import = 7
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
