@@ -4,11 +4,11 @@ namespace Assets.Scripts.ViewModel
 {
     public class FigureViewModel : MonoBehaviour
     {
-        private Figure _figure; 
+        private Figure _figure;
 
-        public FigureViewModel(Figure figure)
+        public void Awake()
         {
-            _figure = figure;
-        }        
+            
+        }
     }
 }

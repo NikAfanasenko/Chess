@@ -354,8 +354,15 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/Board.cs"
+"Assets/Scripts/Figures/Bishop.cs"
 "Assets/Scripts/Figures/Figure.cs"
 "Assets/Scripts/Figures/King.cs"
+"Assets/Scripts/Figures/Pawn.cs"
+"Assets/Scripts/Figures/Queen.cs"
+"Assets/Scripts/Figures/Rock.cs"
+"Assets/Scripts/Game/Game.cs"
+"Assets/Scripts/Game/StandartGame.cs"
+"Assets/Scripts/ViewModel/Figeres.cs"
 "Assets/Scripts/ViewModel/FigureViewModel.cs"
 -langversion:9.0
 /deterministic
